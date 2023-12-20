@@ -10,6 +10,18 @@
 
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
     <!-- Register Color widget -->
     <!-- https://github.com/ekoeryanto/netlify-cms-widgets/tree/master/widgets/color -->
     <script src="../assets/js/react.min.js"></script>
