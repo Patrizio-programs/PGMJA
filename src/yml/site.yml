@@ -16,7 +16,5 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
 email: patrickm@pgmja.com
 disqus_username: ""
