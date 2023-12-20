@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: /assets/img/uploads/patrickmedley-portrait.png
 name: P
 display_name: Patrick Medley
 position: Creator
